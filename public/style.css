@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+hr {
+  width: 100%;
+}
+
+.chat {
+  flex: 1;
+  padding: 0 20px;
+  font-size: 22px;
+  overflow-y: scroll;
+}
+[isMy] {
+  text-align: right;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.controll {
+  height: 50px;
+}
+.controll form {
+  padding: 10px;
+  display: flex;
+}
+.controll input {
+  width: calc(100%-100px);
+}
+.controll button {
+  flex: 1;
+}
